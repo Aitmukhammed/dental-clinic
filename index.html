@@ -69,8 +69,8 @@
         .nav-cta:hover{background:var(--sky-bright);transform:translateY(-2px);box-shadow:0 10px 30px rgba(63,169,245,.55)}
         .burger{display:none;flex-direction:column;gap:5px;cursor:pointer}
         .burger span{width:26px;height:2px;background:#fff;border-radius:2px;transition:.3s}
-        .nav-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:98;opacity:0;transition:.4s}
-        .nav-overlay.open{opacity:1}
+        .nav-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:98;opacity:0;transition:.4s;pointer-events:none}
+        .nav-overlay.open{opacity:1;pointer-events:auto}
 
         /* ---------- HERO ---------- */
         .hero{
